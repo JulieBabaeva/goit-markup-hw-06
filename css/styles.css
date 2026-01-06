@@ -513,8 +513,8 @@ img {
     height: 16px;
     fill: #f4f4fd;
   }
-  .team-members{
-    width:264px ;
+  .team-members {
+    width: 264px;
   }
 
   /*--------------------------------/TEAM---------------------------*/
@@ -1014,9 +1014,11 @@ img {
 
   /*-------------------------------TEAM-TABLET-----------------------------*/
   .team {
+    padding-top: 120px;
+  }
+  .container-team {
     padding-left: 108px;
     padding-right: 108px;
-    padding-top: 120px;
   }
   .section-title-team {
     margin-bottom: 72px;
@@ -1051,7 +1053,7 @@ img {
     display: flex;
     justify-content: center;
     gap: 24px;
-    overflow: hidden; 
+    overflow: hidden;
   }
   /*-------------------------------/TEAM-TABLET-----------------------------*/
 
@@ -1165,7 +1167,10 @@ img {
   .team {
     padding-top: 120px;
   }
-
+  .container-team {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .team-list {
     display: flex;
     align-items: center;
@@ -1235,26 +1240,29 @@ img {
   /*------------------------------ /PORTFOLIO DESK-TOP ------------------------*/
 
   /*------------------------------ FOOTER DESK-TOP ------------------------*/
-.container-footer {
-margin-left: auto;
-margin-right: auto;
-padding-left: 15px;
-padding-right: 15px;
-justify-content: space-between;}
+  .container-footer {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+  }
 
-.footer-column-socials a:hover,
-.footer-column-socials a:focus {
-  background-color: #31d0aa;
-}
-.input-footer:hover,
-.input-footer:focus {
-  border-color: #31d0aa;}
+  .footer-column-socials a:hover,
+  .footer-column-socials a:focus {
+    background-color: #31d0aa;
+  }
+  .input-footer:hover,
+  .input-footer:focus {
+    border-color: #31d0aa;
+  }
 
   .subscribe-btn:hover,
-.subscribe-btn:focus {
-  background-color: #31d0aa;
+  .subscribe-btn:focus {
+    background-color: #31d0aa;
+  }
 }
-  /*------------------------------ /FOOTER DESK-TOP ------------------------*
+/*------------------------------ /FOOTER DESK-TOP ------------------------*
 }
 
 /*------------------------------ HERO-RETINA-DESKTOP ------------------------*/
