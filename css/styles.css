@@ -51,14 +51,14 @@ img {
     background-color: #ffffff;
   }
   .section-paddings {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
 
   .container {
     max-width: 320px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -730,7 +730,6 @@ img {
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url(../images/Dark-bgSm@1x.jpg);
-    margin-bottom: 48px;
   }
 
   h1 {
@@ -747,10 +746,7 @@ img {
   .svg-container {
     display: none;
   }
-  .features {
-    margin-top: 48px;
-    margin-bottom: 48px;
-  }
+
   .features-list {
     display: block;
   }
@@ -769,9 +765,6 @@ img {
 
   /* #region --------------TEAM MOBILE---------------- */
   .team {
-    margin-top: 48px;
-    margin-bottom: 48px;
-    padding-top: 96px;
     padding-left: 14px;
     padding-right: 14px;
   }
@@ -886,7 +879,10 @@ img {
     max-width: 768px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
   }
+
   /* #endregion */
 
   /* #region -------------------------HEADER ------------ */
@@ -1006,9 +1002,7 @@ img {
   /* #endregion */
 
   /* #region -----------------------TEAM-TABLET -------- */
-  .team {
-    padding-top: 120px;
-  }
+
   .container-team {
     padding-left: 108px;
     padding-right: 108px;
@@ -1113,11 +1107,13 @@ img {
 @media screen and (min-width: 1158px) {
   /* #region ------------------COMMON STYLES------------- */
   .section-paddings {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
   .container {
     max-width: 1158px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
   /* #endregion */
 
@@ -1134,7 +1130,6 @@ img {
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url(../images/Dark-bgMed@1x.jpg);
-    margin-bottom: 60px;
   }
   .container-hero {
     max-width: 1440px;
@@ -1158,9 +1153,7 @@ img {
   /* #endregion */
 
   /* #region --------------------TEAM-DESK-TOP----------- */
-  .team {
-    padding-top: 120px;
-  }
+
   .container-team {
     padding-left: 15px;
     padding-right: 15px;
@@ -1180,9 +1173,7 @@ img {
   /* #endregion */
 
   /* #region ------------------PORTFOLIO DESK-TOP---------*/
-  .portfolio {
-    padding-top: 120px;
-  }
+
   .portfolio-list {
     display: flex;
     flex-wrap: wrap;
